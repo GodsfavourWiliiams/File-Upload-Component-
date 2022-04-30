@@ -1,0 +1,142 @@
+    .container {
+        margin: 20px auto;
+        max-width: 1000px;
+        box-sizing: border-box;
+    }
+    
+    .createBtn {
+        appearance: none;
+        background-color: #3498db;
+        border-radius: 4px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .FileUploadContainer {
+        position: relative;
+        margin: 20px auto;
+        border: 4px dotted lightgray;
+        padding: 35px 20px;
+        max-width: 1000px;
+        width: 100%;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .FormField {
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        border: none;
+        text-transform: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        outline: none;
+    }
+    
+    .InputLabel {
+        font-size: 13px;
+        color: black;
+    }
+    
+    .DragDropText {
+        font-weight: bold;
+        letter-spacing: 2.2px;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .UploadFileBtn {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #3498db;
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        padding: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 4px;
+        color: #3498db;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .article {
+        margin-bottom: 35px;
+    }
+    
+    .header {
+        font-size: 17px;
+    }
+    
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    @media only screen and (max-width: 400px) {
+        .section {
+            flex-direction: column;
+        }
+    }
+    
+    .imageFile {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .imagePreview {
+        border-radius: 6px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    aside {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .RemoveFileIcon:hover {
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+    
+    .PreviewContainer {
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .PreviewContainer:hover {
+        opacity: 0.6;
+    }
+    
+    .FileMetaData {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(5, 5, 5, 0.55);
+    }
